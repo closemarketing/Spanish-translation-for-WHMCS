@@ -21,7 +21,7 @@
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
-$_LANG['isocode'] = "es_MX";
+$_LANG['isocode'] = "es_ES";
  
 $_LANG['accountinfo'] = "Información de tu cuenta";
 $_LANG['accountstats'] = "Estadísticas de tu cuenta";
