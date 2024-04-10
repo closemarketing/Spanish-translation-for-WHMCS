@@ -1,0 +1,6 @@
+# Numerous always-ignore extensions
+*.log
+*.zip
+.DS_Store
+
+original/
