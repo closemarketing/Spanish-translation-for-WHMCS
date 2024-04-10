@@ -3774,128 +3774,63 @@ $_LANG['domainnotsupported1'] = "¡Lo sentimos!";
 $_LANG['domainnotsupported12'] = "no es una extensión soportada. Por favor, intenta otro TLD.";
 
 # Updated from WHMCS 8.8
-// TODO: Translate
-$_LANG['affiliatesWithdrawalRequestUnsuccessful'] = 'Your request for a withdrawal was not successful. Please try again later.';
-$_LANG['almostDone'] = "Almost Done";
-$_LANG['api'] = '$_LANG[api]';
-$_LANG['bandwidthUsage'] = '$_LANG[bandwidthUsage]';
-$_LANG['billableitemseach'] = '$_LANG[billableitemseach]';
-$_LANG['billableitemsquantity'] = '$_LANG[billableitemsquantity]';
-$_LANG['billingOverview'] = '$_LANG[billingOverview]';
-$_LANG['buy'] = '$_LANG[buy]';
-$_LANG['cartapifailedtoloadcart'] = '$_LANG[cartapifailedtoloadcart]';
-$_LANG['clickHere'] = '$_LANG[clickHere]';
-$_LANG['clientAreaSecurityTwoFactorAuthRequired'] = '$_LANG[clientAreaSecurityTwoFactorAuthRequired]';
-$_LANG['clientareaerrorlanguage'] = '$_LANG[clientareaerrorlanguage]';
-$_LANG['clientarealanguage'] = '$_LANG[clientarealanguage]';
-$_LANG['contactCreated'] = '$_LANG[contactCreated]';
-$_LANG['contactDeleted'] = '$_LANG[contactDeleted]';
-$_LANG['contactUpdated'] = '$_LANG[contactUpdated]';
-$_LANG['copyToClipboard'] = '$_LANG[copyToClipboard]';
-$_LANG['customActionException'] = '$_LANG[customActionException]';
-$_LANG['customActionGenericError'] = '$_LANG[customActionGenericError]';
-$_LANG['default'] = '$_LANG[default]';
-$_LANG['diskUsage'] = "Disk Usage";
-$_LANG['domainDnsSec'] = '$_LANG[domainDnsSec]';
-$_LANG['domainavailablemessage'] = '$_LANG[domainavailablemessage]';
-$_LANG['fileManager'] = '$_LANG[fileManager]';
-$_LANG['idna'] = '$_LANG[idna]';
-$_LANG['maxFileSize'] = '$_LANG[maxFileSize]';
-$_LANG['mysqlDatabases'] = '$_LANG[mysqlDatabases]';
-$_LANG['navinvoices'] = '$_LANG[navinvoices]';
-$_LANG['packageDomain'] = '$_LANG[packageDomain]';
-$_LANG['paypalCommerce'] = '$_LANG[paypalCommerce]';
-$_LANG['plesk'] = '$_LANG[plesk]';
-$_LANG['purchaseActivate'] = '$_LANG[purchaseActivate]';
-$_LANG['pwresetcheckemail'] = '$_LANG[pwresetcheckemail]';
-$_LANG['pwresetrequested'] = '$_LANG[pwresetrequested]';
-$_LANG['pwstrengthrating'] = '$_LANG[pwstrengthrating]';
-$_LANG['quickShortcuts'] = '$_LANG[quickShortcuts]';
-$_LANG['recommendations'] = '$_LANG[recommendations]';
-$_LANG['recommended'] = '$_LANG[recommended]';
-$_LANG['renewService'] = '$_LANG[renewService]';
-$_LANG['renewServiceAddon'] = '$_LANG[renewServiceAddon]';
-$_LANG['restricted'] = '$_LANG[restricted]';
-$_LANG['securityquestionrequired'] = '$_LANG[securityquestionrequired]';
-$_LANG['servicesRenew'] = '$_LANG[servicesRenew]';
-$_LANG['sslinstantissuancebenefit'] = '$_LANG[sslinstantissuancebenefit]';
-$_LANG['subaccountSsoDenied'] = '$_LANG[subaccountSsoDenied]';
-$_LANG['toggleNav'] = '$_LANG[toggleNav]';
-$_LANG['twofadisableconfirmation'] = '$_LANG[twofadisableconfirmation]';
-$_LANG['usageLastUpdated'] = '$_LANG[usageLastUpdated]';
-$_LANG['usageStats'] = '$_LANG[usageStats]';
-$_LANG['usageStatsBwLimitNear'] = '$_LANG[usageStatsBwLimitNear]';
-$_LANG['usageStatsBwOverLimit'] = '$_LANG[usageStatsBwOverLimit]';
-$_LANG['usageStatsDiskLimitNear'] = '$_LANG[usageStatsDiskLimitNear]';
-$_LANG['usageStatsDiskOverLimit'] = '$_LANG[usageStatsDiskOverLimit]';
-$_LANG['usageUpgradeNow'] = '$_LANG[usageUpgradeNow]';
-$_LANG['usagebilling'] = '$_LANG[usagebilling]';
-$_LANG['viewMore'] = '$_LANG[viewMore]';
-$_LANG['wordpress'] = '$_LANG[wordpress]';
-$_LANG['wpsquared'] = '$_LANG[wpsquared]';
-$_LANG['wptk'] = '$_LANG[wptk]';
-
-/*
-translations = {
-	"addonsExtras": "Complementos y Extras",
-	"affiliatesWithdrawalRequestUnsuccessful": "La solicitud de retiro de afiliados no fue exitosa",
-	"almostDone": "Casi terminado",
-	"api": "API",  # Unchanged, technical term
-	"bandwidthUsage": "Uso de Ancho de Banda",
-	"billableitemseach": "Elementos facturables cada uno",
-	"billableitemsquantity": "Cantidad de elementos facturables",
-	"billingOverview": "Resumen de Facturación",
-	"buy": "Comprar",
-	"cartapifailedtoloadcart": "Error al cargar el carrito con la API",
-	"clickHere": "Haz clic aquí",
-	"clientAreaSecurityTwoFactorAuthRequired": "Se requiere autenticación de dos factores en el área de clientes",
-	"clientareaerrorlanguage": "Error de idioma en el área de clientes",
-	"clientarealanguage": "Idioma del área de clientes",
-	"contactCreated": "Contacto creado",
-	"contactDeleted": "Contacto eliminado",
-	"contactUpdated": "Contacto actualizado",
-	"copyToClipboard": "Copiar al portapapeles",
-	"customActionException": "Excepción en acción personalizada",
-	"customActionGenericError": "Error genérico en acción personalizada",
-	"default": "Predeterminado",
-	"diskUsage": "Uso de Disco",
-	"domainDnsSec": "DNSSEC del dominio",
-	"domainavailablemessage": "Mensaje de dominio disponible",
-	"fileManager": "Administrador de Archivos",
-	"idna": "IDNA",  # Technical term, often left untranslated
-	"maxFileSize": "Tamaño máximo de archivo",
-	"mysqlDatabases": "Bases de datos MySQL",
-	"navinvoices": "Facturas",
-	"packageDomain": "Paquete de Dominio",
-	"paypalCommerce": "Comercio PayPal",
-	"plesk": "Plesk",  # Unchanged, product name
-	"purchaseActivate": "Comprar/Activar",
-	"pwresetcheckemail": "Verifica tu correo electrónico para restablecer la contraseña",
-	"pwresetrequested": "Solicitud de restablecimiento de contraseña realizada",
-	"pwstrengthrating": "Calificación de la fuerza de la contraseña",
-	"quickShortcuts": "Atajos Rápidos",
-	"recommendations": "Recomendaciones",
-	"recommended": "Recomendado",
-	"renewService": "Renovar Servicio",
-	"renewServiceAddon": "Renovar Complemento de Servicio",
-	"restricted": "Restringido",
-	"securityquestionrequired": "Se requiere pregunta de seguridad",
-	"servicesRenew": "Renovación de Servicios",
-	"sslinstantissuancebenefit": "Beneficio de emisión instantánea de SSL",
-	"subaccountSsoDenied": "SSO denegado para subcuenta",
-	"toggleNav": "Alternar Navegación",
-	"twofadisableconfirmation": "Confirmación de desactivación de 2FA",
-	"usageLastUpdated": "Última actualización del uso",
-	"usageStats": "Estadísticas de Uso",
-	"usageStatsBwLimitNear": "Límite de Ancho de Banda cercano",
-	"usageStatsBwOverLimit": "Exceso del límite de Ancho de Banda",
-	"usageStatsDiskLimitNear": "Límite de Disco cercano",
-	"usageStatsDiskOverLimit": "Exceso del límite de Disco",
-	"usageUpgradeNow": "Actualizar Ahora",
-	"usagebilling": "Facturación de Uso",
-	"viewMore": "Ver Más",
-	"wordpress": "WordPress",  # Unchanged, product name
-	"wpsquared": "WPSquared",  # Unchanged, likely a product or service name
-	"wptk": "WPTK"  # Unchanged, likely a product or service name
-}
-*/
+$_LANG['addonsExtras'] = "Complementos y Extras";
+$_LANG['affiliatesWithdrawalRequestUnsuccessful'] = "La solicitud de retiro de afiliados no fue exitosa";
+$_LANG['almostDone'] = "Casi terminado";
+$_LANG['api'] = "API";
+$_LANG['bandwidthUsage'] = "Uso de Ancho de Banda";
+$_LANG['billableitemseach'] = "Elementos facturables cada uno";
+$_LANG['billableitemsquantity'] = "Cantidad de elementos facturables";
+$_LANG['billingOverview'] = "Resumen de Facturación";
+$_LANG['buy'] = "Comprar";
+$_LANG['cartapifailedtoloadcart'] = "Error al cargar el carrito con la API";
+$_LANG['clickHere'] = "Haz clic aquí";
+$_LANG['clientAreaSecurityTwoFactorAuthRequired'] = "Se requiere autenticación de dos factores en el área de clientes";
+$_LANG['clientareaerrorlanguage'] = "Error de idioma en el área de clientes";
+$_LANG['clientarealanguage'] = "Idioma del área de clientes";
+$_LANG['contactCreated'] = "Contacto creado";
+$_LANG['contactDeleted'] = "Contacto eliminado";
+$_LANG['contactUpdated'] = "Contacto actualizado";
+$_LANG['copyToClipboard'] = "Copiar al portapapeles";
+$_LANG['customActionException'] = "Excepción en acción personalizada";
+$_LANG['customActionGenericError'] = "Error genérico en acción personalizada";
+$_LANG['default'] = "Predeterminado";
+$_LANG['diskUsage'] = "Uso de Disco";
+$_LANG['domainDnsSec'] = "DNSSEC del dominio";
+$_LANG['domainavailablemessage'] = "Mensaje de dominio disponible";
+$_LANG['fileManager'] = "Administrador de Archivos";
+$_LANG['idna'] = "IDNA";
+$_LANG['maxFileSize'] = "Tamaño máximo de archivo";
+$_LANG['mysqlDatabases'] = "Bases de datos MySQL";
+$_LANG['navinvoices'] = "Facturas";
+$_LANG['packageDomain'] = "Paquete de Dominio";
+$_LANG['paypalCommerce'] = "Comercio PayPal";
+$_LANG['plesk'] = "Plesk";
+$_LANG['purchaseActivate'] = "Comprar/Activar";
+$_LANG['pwresetcheckemail'] = "Verifica tu correo electrónico para restablecer la contraseña";
+$_LANG['pwresetrequested'] = "Solicitud de restablecimiento de contraseña realizada";
+$_LANG['pwstrengthrating'] = "Calificación de la fuerza de la contraseña";
+$_LANG['quickShortcuts'] = "Atajos Rápidos";
+$_LANG['recommendations'] = "Recomendaciones";
+$_LANG['recommended'] = "Recomendado";
+$_LANG['renewService'] = "Renovar Servicio";
+$_LANG['renewServiceAddon'] = "Renovar Complemento de Servicio";
+$_LANG['restricted'] = "Restringido";
+$_LANG['securityquestionrequired'] = "Se requiere pregunta de seguridad";
+$_LANG['servicesRenew'] = "Renovación de Servicios";
+$_LANG['sslinstantissuancebenefit'] = "Beneficio de emisión instantánea de SSL";
+$_LANG['subaccountSsoDenied'] = "SSO denegado para subcuenta";
+$_LANG['toggleNav'] = "Alternar Navegación";
+$_LANG['twofadisableconfirmation'] = "Confirmación de desactivación de 2FA";
+$_LANG['usageLastUpdated'] = "Última actualización del uso";
+$_LANG['usageStats'] = "Estadísticas de Uso";
+$_LANG['usageStatsBwLimitNear'] = "Límite de Ancho de Banda cercano";
+$_LANG['usageStatsBwOverLimit'] = "Exceso del límite de Ancho de Banda";
+$_LANG['usageStatsDiskLimitNear'] = "Límite de Disco cercano";
+$_LANG['usageStatsDiskOverLimit'] = "Exceso del límite de Disco";
+$_LANG['usageUpgradeNow'] = "Actualizar Ahora";
+$_LANG['usagebilling'] = "Facturación de Uso";
+$_LANG['viewMore'] = "Ver Más";
+$_LANG['wordpress'] = "WordPress";
+$_LANG['wpsquared'] = "WPSquared";
+$_LANG['wptk'] = "WPTK";
