@@ -78,7 +78,7 @@ $_LANG['cartbrowse'] = "Resumen de Servicios";
 $_LANG['cartconfigdomainextras'] = "Configurar dominios";
 $_LANG['cartconfigoptionsdesc'] = "El servicio elegido tiene algunas opciones que puedes puede elegir a continuación para personalizar tu pedido.";
 $_LANG['cartconfigserver'] = "Configurar Servidor";
-$_LANG['cartcustomfieldsdesc'] = "El Servicio requiere de información adicional antes de procesar la Orden. Por favor, completa los datos necesarios.";
+$_LANG['cartcustomfieldsdesc'] = "El Servicio requiere de información adicional antes de procesar el Pedido. Por favor, completa los datos necesarios.";
 $_LANG['cartdomainsconfig'] = "Configuración de Dominios";
 $_LANG['cartdomainsconfigdesc'] = "A continuación puede configurar los servicios extras relacionados con el dominio, ingresar información requerida o definir las DNS que utilizará.";
 $_LANG['cartdomainshashosting'] = "Incluye hosting";
@@ -210,7 +210,7 @@ $_LANG['clientareanavdetails'] = "Mis datos";
 $_LANG['clientareanavdomains'] = "Mis dominios";
 $_LANG['clientareanavhome'] = "Área del Cliente";
 $_LANG['clientareanavlogout'] = "Salir";
-$_LANG['clientareanavorder'] = "Ordenar otro servicio";
+$_LANG['clientareanavorder'] = "Solicitar otro servicio";
 $_LANG['clientareanavsecurityquestions'] = "Cambiar pregunta de seguridad";
 $_LANG['clientareanavservices'] = "Mis servicios";
 $_LANG['clientareanavsupporttickets'] = "Mis tickets";
@@ -679,7 +679,7 @@ $_LANG['please'] = "Por favor";
 $_LANG['pleasewait'] = "Por favor espera...";
 $_LANG['presalescontactdescription'] = "Ingresa cualquier duda aquí";
 $_LANG['previouspage'] = "Página anterior";
-$_LANG['proformainvoicenumber'] = "Orden Proforma Nº";
+$_LANG['proformainvoicenumber'] = "Pedido Proforma Nº";
 $_LANG['promoexistingclient'] = "Es necesario tener algún servicio activo para utilizar este código";
 $_LANG['promoonceperclient'] = "Este código solamente puede utilizarse una vez por cliente";
 $_LANG['pwstrengthfail'] = "La contraseña usada no es lo suficientemente compleja. Por favor, crea una contraseña más compleja";
@@ -986,7 +986,7 @@ $_LANG['domainreleasetag'] = "Nueva etiqueta registradora";
  
 # Ajax Order Form
  
-$_LANG['orderformtitle'] = "Formulario de Orden";
+$_LANG['orderformtitle'] = "Formulario de Pedido";
  
 $_LANG['signup'] = "Registrarse";
 $_LANG['loading'] = "Cargando...";
@@ -1037,14 +1037,14 @@ $_LANG['orderpromoprestart'] = "Esta promoción aún no ha empezado. Intenta má
  
 $_LANG['ticketmerge'] = "FUSIONADOS";
  
-$_LANG['quote'] = "Cotizaciones";
-$_LANG['quotestitle'] = "Mis cotizaciones";
+$_LANG['quote'] = "Presupuestos";
+$_LANG['quotestitle'] = "Mis presupuestos";
 $_LANG['quoteview'] = "Ver";
 $_LANG['quotedownload'] = "Ver/Descargar";
-$_LANG['quoteacceptbtn'] = "Aceptar cotización";
+$_LANG['quoteacceptbtn'] = "Aceptar presupuesto";
 $_LANG['quotedlpdfbtn'] = "Descargar PDF";
 $_LANG['quotediscountheading'] = "Descuento (%)";
-$_LANG['noquotes'] = "Actualmente no hay cotizaciones guardadas en tu cuenta.<br />Para solicitar una cotización, por favor crea un ticket.";
+$_LANG['noquotes'] = "Actualmente no hay presupuestos guardadas en tu cuenta.<br />Para solicitar una presupuesto, por favor crea un ticket.";
 $_LANG['quotenumber'] = "Cotización";
 $_LANG['quotesubject'] = "Asunto";
 $_LANG['quotedatecreated'] = "Fecha de creación";
@@ -1258,7 +1258,7 @@ $_LANG['clientareaproductsintro'] = "Estos son todos los servicios que has regis
 $_LANG['clientareaproductdetailsintro'] = "Este es un resumen de los servicios que tienes contratados con nosotros.";
 $_LANG['clientareadomainsintro'] = "Estos son todos los dominios que has registrado en esta cuenta.";
 $_LANG['invoicesintro'] = "Tu historial de órdenes.";
-$_LANG['quotesintro'] = "Las cotizaciones que hemos generado para ti.";
+$_LANG['quotesintro'] = "Las presupuestos que hemos generado para ti.";
 $_LANG['emailstagline'] = "Aquí hay una copia de todos los emails recientes que te hemos enviado...";
 $_LANG['supportticketsintro'] = "Seguimiento puntual a tus solicitudes";
 $_LANG['addfundsintro'] = "Depositar dinero por adelantado";
@@ -1390,8 +1390,8 @@ $_LANG['clientgroupdiscount'] = "Descuento cliente";
 $_LANG['billableitemshours'] = "Horas";
 $_LANG['billableitemshour'] = "Hora";
  
-$_LANG['invoicefilename'] = "Orden-";
-$_LANG['quotefilename'] = "Cotización-";
+$_LANG['invoicefilename'] = "Pedido-";
+$_LANG['quotefilename'] = "Presupuesto-";
  
 # Domain Addons
  
@@ -1489,16 +1489,16 @@ $_LANG['disable'] = "Deshabilitar";
 $_LANG['manage'] = "Administrar";
 
 # Version 5.3
-$_LANG['quoteacceptancetitle'] = "Aceptación de cotización";
-$_LANG['quoteacceptancehowto'] = "Para aceptar la cotización, por favor acepta también nuestros términos de servicio, los cuales puedes encontrar en";
-$_LANG['quoteacceptancewarning'] = "Toma en cuenta que al aceptar esta cotización se establece un compromiso de pago.";
+$_LANG['quoteacceptancetitle'] = "Aceptar Presupuesto";
+$_LANG['quoteacceptancehowto'] = "Para aceptar la presupuesto, por favor acepta también nuestros términos de servicio, los cuales puedes encontrar en";
+$_LANG['quoteacceptancewarning'] = "Toma en cuenta que al aceptar esta presupuesto se establece un compromiso de pago.";
 
 $_LANG['contactform'] = "Formulario de contacto";
 
 $_LANG['twoipconnect'] = "Conecta tu app";
 $_LANG['twoipinstruct'] = "Al usar una app de autenticación como %s o %s, escanea el código QR siguiente. ¿Tienes problemas para escanear? Ingresa el siguiente código manualmente:";
 $_LANG['twoipverificationstepmsg'] = "Ingresa el código de 6 dígitos que ha generado tu aplicación para verificar y completar la configuración.";
-$_LANG['twoipenterauth'] = "Ingresa el´código de autenticación";
+$_LANG['twoipenterauth'] = "Ingresa el código de autenticación";
 $_LANG['twoipgoogleauth'] = "Google Authenticator";
 $_LANG['twoipduo'] = "Duo";
 $_LANG['twoipcodemissmatch'] = "El código que has introducido no coincide con lo que se esperaba. Por favor, inténtalo de nuevo.";
@@ -1686,7 +1686,7 @@ $_LANG['disclaimers'] = "Aviso legal:";
 $_LANG['tldpricing'] = "TLDs - Precio";
 $_LANG['alltldpricing'] = "Todos los precios de TLD";
 
-$_LANG['quotesdesc'] = "Cotizaciones que hemos generado para ti";
+$_LANG['quotesdesc'] = "Presupuestos que hemos generado para ti";
 $_LANG['quotesrejected'] = "Rechazada";
 
 $_LANG['ticketsyourhistory'] = "Tu historial de tickets con nosotros.";
@@ -1752,7 +1752,7 @@ $_LANG['directDebitSavings'] = "Guardando";
 
 $_LANG['outOfStockProductRemoved'] = "Un producto fuera de stock fue retirado automáticamente de tu compra";
 
-$_LANG['subaccountpermsquotes'] = "Ver y aceptar cotizaciones";
+$_LANG['subaccountpermsquotes'] = "Ver y aceptar presupuestos";
 
 $_LANG['chooselanguage'] = "Cambiar idioma";
 
@@ -1761,11 +1761,11 @@ $_LANG['error'] = "Error";
 $_LANG['print'] = "Imprimir";
 $_LANG['invoicelineitems'] = "Servicios";
 
-$_LANG['quotelineitems'] = "Artículos de la cotización";
+$_LANG['quotelineitems'] = "Artículos de la presupuesto";
 
 $_LANG['quoteproposal'] = "Propuesta";
-$_LANG['quoteacceptagreetos'] = "Para aceptar la cotización, por favor, confirma tu aceptación de nuestros términos de servicio.";
-$_LANG['quoteacceptcontractwarning'] = "Ten en cuenta que la aceptación de una cotización se considera como celebración de un contrato y no se podrá cancelar una vez aceptado.";
+$_LANG['quoteacceptagreetos'] = "Para aceptar la presupuesto, por favor, confirma tu aceptación de nuestros términos de servicio.";
+$_LANG['quoteacceptcontractwarning'] = "Ten en cuenta que la aceptación de una presupuesto se considera como celebración de un contrato y no se podrá cancelar una vez aceptado.";
 
 // Client alerts
 $_LANG['clientAlerts']['creditCardExpiring'] = "Tu tarjeta de crédito :creditCardType-:creditCardLastFourDigits expira dentro de :days días. Por favor, actualiza tus datos a la brevedad.";
@@ -1908,7 +1908,7 @@ $_LANG['cPanel']['billingOverview'] = "Información de facturación";
 
 $_LANG['liveHelp']['chatNow'] = "Chatear Ahora";
 
-$_LANG['quotes'] = "Cotizaciones";
+$_LANG['quotes'] = "Presupuestos";
 
 $_LANG['productMustBeActiveForModuleCmds'] = "El servicio debe estar activo para realizar esta acción";
 $_LANG['domainCannotBeManagedUnlessActive'] = "El dominio no está activo. Los dominios no se pueden gestionar hasta que se encuentren activos.";
@@ -3773,7 +3773,7 @@ $_LANG['twofasetup'] = "Configuración del proceso de autenticación de doble fa
 $_LANG['domainnotsupported1'] = "¡Lo sentimos!";
 $_LANG['domainnotsupported12'] = "no es una extensión soportada. Por favor, intenta otro TLD.";
 
-# Updated from WHMCS 8.8
+// Updated from WHMCS 8.8
 $_LANG['addonsExtras'] = "Complementos y Extras";
 $_LANG['affiliatesWithdrawalRequestUnsuccessful'] = "La solicitud de retiro de afiliados no fue exitosa";
 $_LANG['almostDone'] = "Casi terminado";
@@ -3834,3 +3834,6 @@ $_LANG['viewMore'] = "Ver Más";
 $_LANG['wordpress'] = "WordPress";
 $_LANG['wpsquared'] = "WPSquared";
 $_LANG['wptk'] = "WPTK";
+
+// Menú.
+$_LANG['clientareanavhome'] = "Área Clientes";
